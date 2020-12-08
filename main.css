@@ -8,13 +8,12 @@ justify-content: flex-end;
 li a
 {
 font-size: 15px;
-
 }
 #nav-bar a
 {
     text-decoration: none;
     text-align: center;
-    padding: 14px;
+    padding: 12px;
 }
 #logo
 {
@@ -47,13 +46,49 @@ position: relative;
 
 }
 
-#circle
+#user-profile
 {
     height: 30px;
     width: 30px;
     border-radius: 100px;
-    background-color: red;
+}
+#footer
+{
+    display: block;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    background-color: lightgray;
+    width: 100%;
+    height: 5%;
   
+}
+#footer a
+{
+    position: relative;
+bottom: 20px;
+    text-decoration: none;
+    padding: 2%;
+    
+    display: inline-block;
+    color: black;
+
+}
+#right-footer
+{
+  display: inline;  
+}
+#right-footer a
+{
+    float: right;
+    color: black;
+}
+#center-footer
+{
+    display: inline-block;
+    margin-left: 20%;
+    position: relative;
+    bottom: 20px;
 }
 body
 {
